@@ -1,4 +1,5 @@
 using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Web.Routing;
@@ -281,7 +282,7 @@ namespace Nop.Plugin.Payments.Payu
                 MerchantId = "",
                 Key = "",
                 MerchantParam = "",
-                PayUri = "https://test.payu.in/_payment",
+                PayUri = "https://sandboxsecure.payu.in/_payment",
                 AdditionalFee = 0,
             };
             _settingService.SaveSetting(settings);
